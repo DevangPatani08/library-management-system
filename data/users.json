@@ -1,0 +1,202 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@email.com",
+            "phone": "+1-555-0101",
+            "address": "123 Main St, City, State 12345",
+            "subscription": {
+                "type": "Premium",
+                "dateOfSubscription": "2024-01-15",
+                "validTill": "2025-01-15",
+                "isActive": true,
+                "fine": 0
+            },
+            "issuedBooks": [
+                {
+                    "bookId": 1,
+                    "issueDate": "2024-12-01",
+                    "dueDate": "2024-12-15",
+                "returned": false,
+                "fine": 0
+                }
+            ],
+            "totalFine": 0,
+            "createdAt": "2024-01-15T10:30:00Z"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane.smith@email.com",
+            "phone": "+1-555-0102",
+            "address": "456 Oak Ave, City, State 12346",
+            "subscription": {
+                "type": "Standard",
+                "dateOfSubscription": "2024-06-01",
+                "validTill": "2024-12-01",
+                "isActive": false,
+                "fine": 100
+            },
+            "issuedBooks": [
+                {
+                    "bookId": 2,
+                    "issueDate": "2024-11-15",
+                    "dueDate": "2024-11-29",
+                    "returned": false,
+                    "fine": 100
+                },
+                {
+                    "bookId": 3,
+                    "issueDate": "2024-11-20",
+                    "dueDate": "2024-12-04",
+                    "returned": false,
+                    "fine": 0
+                }
+            ],
+            "totalFine": 300,
+            "createdAt": "2024-06-01T14:20:00Z"
+        },
+        {
+            "id": 3,
+            "name": "Bob Johnson",
+            "email": "bob.johnson@email.com",
+            "phone": "+1-555-0103",
+            "address": "789 Pine St, City, State 12347",
+            "subscription": {
+                "type": "Basic",
+                "dateOfSubscription": "2024-09-01",
+                "validTill": "2024-12-01",
+                "isActive": true,
+                "fine": 0
+            },
+            "issuedBooks": [],
+            "totalFine": 0,
+            "createdAt": "2024-09-01T09:15:00Z"
+        },
+        {
+            "id": 4,
+            "name": "Alice Brown",
+            "email": "alice.brown@email.com",
+            "phone": "+1-555-0104",
+            "address": "321 Elm St, City, State 12348",
+            "subscription": {
+                "type": "Premium",
+                "dateOfSubscription": "2024-03-01",
+                "validTill": "2025-03-01",
+                "isActive": true,
+                "fine": 0
+            },
+            "issuedBooks": [
+                {
+                    "bookId": 4,
+                    "issueDate": "2024-11-25",
+                    "dueDate": "2024-12-09",
+                    "returned": true,
+                    "fine": 0
+                }
+            ],
+            "totalFine": 0,
+            "createdAt": "2024-03-01T16:45:00Z"
+        },
+        {
+            "id": 5,
+            "name": "Charlie Wilson",
+            "email": "charlie.wilson@email.com",
+            "phone": "+1-555-0105",
+            "address": "654 Maple Ave, City, State 12349",
+            "subscription": {
+                "type": "Standard",
+                "dateOfSubscription": "2024-07-15",
+                "validTill": "2025-01-15",
+                "isActive": true,
+                "fine": 0
+            },
+            "issuedBooks": [
+                {
+                    "bookId": 1,
+                    "issueDate": "2024-11-10",
+                    "dueDate": "2024-11-24",
+                    "returned": false,
+                    "fine": 200
+                }
+            ],
+            "totalFine": 200,
+            "createdAt": "2024-07-15T11:30:00Z"
+        },
+        {
+            "id": 6,
+            "name": "Diana Davis",
+            "email": "diana.davis@email.com",
+            "phone": "+1-555-0106",
+            "address": "987 Cedar St, City, State 12350",
+            "subscription": {
+                "type": "Basic",
+                "dateOfSubscription": "2024-10-01",
+                "validTill": "2025-01-01",
+                "isActive": true,
+                "fine": 0
+            },
+            "issuedBooks": [
+                {
+                    "bookId": 2,
+                    "issueDate": "2024-12-01",
+                    "dueDate": "2024-12-08",
+                    "returned": false,
+                    "fine": 0
+                },
+                {
+                    "bookId": 3,
+                    "issueDate": "2024-12-01",
+                    "dueDate": "2024-12-08",
+                    "returned": false,
+                    "fine": 0
+                }
+            ],
+            "totalFine": 0,
+            "createdAt": "2024-10-01T13:20:00Z"
+        },
+        {
+            "id": 7,
+            "name": "Eve Miller",
+            "email": "eve.miller@email.com",
+            "phone": "+1-555-0107",
+            "address": "147 Birch St, City, State 12351",
+            "subscription": {
+                "type": "Premium",
+                "dateOfSubscription": "2024-02-01",
+                "validTill": "2025-02-01",
+                "isActive": false,
+                "fine": 200
+            },
+            "issuedBooks": [
+                {
+                    "bookId": 4,
+                    "issueDate": "2024-11-01",
+                    "dueDate": "2024-11-15",
+                    "returned": false,
+                    "fine": 100
+                }
+            ],
+            "totalFine": 300,
+            "createdAt": "2024-02-01T08:45:00Z"
+        },
+        {
+            "id": 8,
+            "name": "Frank Garcia",
+            "email": "frank.garcia@email.com",
+            "phone": "+1-555-0108",
+            "address": "258 Spruce St, City, State 12352",
+            "subscription": {
+                "type": "Standard",
+                "dateOfSubscription": "2024-08-01",
+                "validTill": "2025-02-01",
+                "isActive": true,
+                "fine": 0
+            },
+            "issuedBooks": [],
+            "totalFine": 0,
+            "createdAt": "2024-08-01T15:10:00Z"
+        }
+    ]
+}
